@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
+//Comment
 public class ReverseString1 {
-    public static void main (String[] args) {
+        //Reverse Function
+	public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         String str;
         System.out.println("Enter string:");
@@ -9,6 +11,7 @@ public class ReverseString1 {
         reverse(str);
     }
     
+    //Main Function
     public static void reverse (String string) {
         if(string.isEmpty()) {
             System.out.print(string);
